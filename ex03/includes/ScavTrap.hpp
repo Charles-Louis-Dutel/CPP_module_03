@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ScavTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cdutel <cdutel@42student.fr>               +#+  +:+       +#+        */
+/*   By: cdutel <cdutel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 16:04:37 by cdutel            #+#    #+#             */
-/*   Updated: 2024/12/09 14:40:43 by cdutel           ###   ########.fr       */
+/*   Updated: 2024/12/09 16:18:58 by cdutel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <iostream>
 # include <string>
 
-class ScavTrap : virtual public ClapTrap
+class ScavTrap : public virtual ClapTrap
 {
 	public:
 		ScavTrap(void);

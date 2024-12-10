@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   FragTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cdutel <cdutel@42student.fr>               +#+  +:+       +#+        */
+/*   By: cdutel <cdutel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 16:36:20 by cdutel            #+#    #+#             */
-/*   Updated: 2024/12/09 14:40:34 by cdutel           ###   ########.fr       */
+/*   Updated: 2024/12/09 16:18:49 by cdutel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <iostream>
 # include <string>
 
-class	FragTrap : virtual public ClapTrap
+class	FragTrap : public virtual ClapTrap
 {
 	public:
 		FragTrap(void);

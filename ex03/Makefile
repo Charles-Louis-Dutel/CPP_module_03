@@ -1,6 +1,6 @@
 NAME = diamondtrap
 C = c++
-CFLAGS = -Wall -Wextra -Werror -g -std=c++98 -MMD
+CFLAGS = -Wshadow -Wall -Wextra -Werror -g -std=c++98 -MMD 
 
 ############################Sources########################
 SRCS_DIR = srcs/

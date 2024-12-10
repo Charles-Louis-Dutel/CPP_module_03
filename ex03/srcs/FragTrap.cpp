@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   FragTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cdutel <cdutel@42student.fr>               +#+  +:+       +#+        */
+/*   By: cdutel <cdutel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 16:35:40 by cdutel            #+#    #+#             */
-/*   Updated: 2024/11/27 17:07:11 by cdutel           ###   ########.fr       */
+/*   Updated: 2024/12/10 12:28:12 by cdutel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,15 +15,17 @@
 FragTrap::FragTrap(void) : ClapTrap()
 {
 	this->_Hit_pts = 100;
-	this->_Energy_pts = 100;
+	if (this->_Energy_pts != 50)
+		this->_Energy_pts = 100;
 	this->_Attack_dmg = 30;
-	std::cout << "\033[31mFragTrap\033[0m constructor called" << std::endl;
+	std::cout << "\033[31mFragTrap\033[0m default constructor called" << std::endl;
 }
 
 FragTrap::FragTrap(std::string name) : ClapTrap(name)
 {
 	this->_Hit_pts = 100;
-	this->_Energy_pts = 100;
+	if (this->_Energy_pts != 50)
+		this->_Energy_pts = 100;
 	this->_Attack_dmg = 30;
 	std::cout << "\033[31mFragTrap\033[0m " << name;
 	std::cout << " constructor called" << std::endl;
