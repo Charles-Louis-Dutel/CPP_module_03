@@ -6,7 +6,7 @@
 /*   By: cdutel <cdutel@42student.fr>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 16:05:28 by cdutel            #+#    #+#             */
-/*   Updated: 2024/11/27 16:30:16 by cdutel           ###   ########.fr       */
+/*   Updated: 2025/01/13 10:54:16 by cdutel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,7 +92,7 @@ void	ClapTrap::takeDamage(unsigned int amount)
 		std::cout << "ClapTrap " << this->_Name << " died" << std::endl;
 		return;
 	}
-	std::cout << " Hit points left : " << this->_Hit_pts << std::endl;
+	std::cout << "Hit points left : " << this->_Hit_pts << std::endl;
 }
 
 void	ClapTrap::beRepaired(unsigned int amount)

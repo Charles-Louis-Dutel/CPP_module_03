@@ -6,7 +6,7 @@
 /*   By: cdutel <cdutel@42student.fr>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 16:05:49 by cdutel            #+#    #+#             */
-/*   Updated: 2024/11/27 17:17:18 by cdutel           ###   ########.fr       */
+/*   Updated: 2025/01/13 11:11:57 by cdutel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	main(void)
 	Anakin.highFivesGuys();
 	std::cout << "\033[32mClapTrap\033[0m Padme is asking the truth to \033[31mFragTrap\033[0m Anakin" << std::endl;
 	Anakin.attack("Padme");
-	Padme.takeDamage(100);
+	Padme.takeDamage(30);
 
 	Obi_wan.guardGate();
 	Obi_wan.guardGate();
